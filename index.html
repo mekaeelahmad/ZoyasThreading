@@ -1,1 +1,425 @@
-Hello World 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Zoya's Threading — certified eyebrow threading, full face, sideburns, and more. Visit us at 3045 Wilderness Drive."
+    />
+    <title>Zoya's Threading | Certified Eyebrow Threading</title>
+    <link rel="icon" type="image/png" href="logo_no_name.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Zoya's Threading home">
+          <img
+            class="brand-mark"
+            src="logo_no_name.png"
+            alt=""
+            width="48"
+            height="48"
+          />
+          <span class="brand-text">
+            Zoya's
+            <small>Threading</small>
+          </span>
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          aria-label="Open menu"
+        >
+          <span></span>
+        </button>
+        <nav id="site-menu" class="site-nav" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#book">Book</a>
+          <a href="#visit">Visit</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="container hero-grid">
+          <div class="hero-visual">
+            <img
+              class="hero-logo"
+              src="logo_with_name.png"
+              alt="Zoya's Threading logo"
+              width="340"
+              height="380"
+            />
+          </div>
+          <div class="hero-copy">
+            <p class="badge">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M12 2l2.4 7.4H22l-6 4.6 2.3 7-6.3-4.6-6.3 4.6 2.3-7-6-4.6h7.6L12 2z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Certified in eyebrow threading
+            </p>
+            <h1 id="hero-heading">Precision threading for brows &amp; beyond</h1>
+            <p class="hero-lead">
+              Clean lines, gentle technique, and lasting shape—whether you want a
+              natural arch, a full-face refresh, or neat sideburns. Your comfort
+              and results come first.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#book">Book</a>
+              <a class="btn btn-ghost" href="#services">Browse services</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" aria-labelledby="services-heading">
+        <div class="container">
+          <div class="section-intro">
+            <h2 id="services-heading">What we offer</h2>
+            <p>
+              Threading removes hair with a twisted cotton thread for sharp
+              definition and less irritation on sensitive skin. Popular for face
+              shaping and maintenance between appointments.
+            </p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 12c3-6 8-7 16-5"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3>Eyebrow threading</h3>
+              <p>
+                Certified shaping and cleanup to define your arch, thickness,
+                and symmetry—tailored to your face.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="10" r="5" stroke="currentColor" stroke-width="1.8" />
+                  <path d="M7 20c1.5-3 4-4 10-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3>Full face</h3>
+              <p>
+                Cheeks, jawline, forehead, and upper lip for an all-over smooth,
+                photo-ready finish.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M8 8h8v12H8V8zm0 4h8M10 6V4h4v2"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>Sideburns &amp; neck</h3>
+              <p>
+                Clean edges along the hairline and sideburns for a polished look
+                that grows in softly.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <ellipse cx="12" cy="11" rx="7" ry="5" stroke="currentColor" stroke-width="1.6" />
+                  <path d="M9 16c1 2 4 2 6 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                </svg>
+              </div>
+              <h3>Upper lip &amp; chin</h3>
+              <p>
+                Quick, precise hair removal for common areas—ideal for sensitive
+                skin and detailed lines.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M6 12h12M12 6v12"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3>Combo &amp; custom</h3>
+              <p>
+                Mix brows with lip, chin, or full face in one visit. Ask what
+                combination works best for you.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 21s7-4.5 7-11a7 7 0 10-14 0c0 6.5 7 11 7 11z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linejoin="round"
+                  />
+                  <circle cx="12" cy="10" r="2" stroke="currentColor" stroke-width="1.6" />
+                </svg>
+              </div>
+              <h3>First-time friendly</h3>
+              <p>
+                New to threading? We'll explain the process and go at your pace
+                so you leave confident and comfortable.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" aria-labelledby="about-heading">
+        <div class="container about-block">
+          <div>
+            <div class="section-intro">
+              <h2 id="about-heading">Why choose threading</h2>
+              <p>
+                Threading plucks hair at the follicle without heat or harsh
+                chemicals, so many clients prefer it for delicate facial areas.
+                With certified brow expertise, every session focuses on balance,
+                proportion, and a look that fits your style—not a one-size
+                stencil.
+              </p>
+            </div>
+          </div>
+          <aside class="about-highlight">
+            <h3>Certified expertise</h3>
+            <p>
+              Holding certification in eyebrow threading means training in
+              technique, sanitation, and shaping principles—so you get
+              consistent, professional care in a calm setting.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="book" aria-labelledby="book-heading">
+        <div class="container booking-block">
+          <div class="booking-intro section-intro">
+            <h2 id="book-heading">Book an appointment</h2>
+            <p>
+              Pick a preferred date and time and tell us what you’d like done.
+              We’ll email you back at the address you provide to confirm your
+              visit.
+            </p>
+          </div>
+          <div class="booking-panel">
+            <form id="booking-form" class="booking-form" method="POST">
+              <input type="hidden" name="_subject" value="New appointment request — Zoya's Threading" />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next" value="" />
+
+              <div class="form-row form-row-2">
+                <label class="form-field">
+                  <span class="form-label">Your name <abbr title="required">*</abbr></span>
+                  <input
+                    type="text"
+                    name="Name"
+                    id="book-name"
+                    required
+                    autocomplete="name"
+                    placeholder="First and last name"
+                  />
+                </label>
+                <label class="form-field">
+                  <span class="form-label">Email <abbr title="required">*</abbr></span>
+                  <input
+                    type="email"
+                    name="email"
+                    id="book-email"
+                    required
+                    autocomplete="email"
+                    placeholder="you@example.com"
+                  />
+                </label>
+              </div>
+
+              <div class="form-row form-row-2">
+                <label class="form-field">
+                  <span class="form-label">Phone <span class="form-optional">(optional)</span></span>
+                  <input
+                    type="tel"
+                    name="Phone"
+                    id="book-phone"
+                    autocomplete="tel"
+                    placeholder="Best number to reach you"
+                  />
+                </label>
+                <label class="form-field">
+                  <span class="form-label">Service <abbr title="required">*</abbr></span>
+                  <select name="Service" id="book-service" required>
+                    <option value="" disabled selected>Select a service</option>
+                    <option value="Eyebrow threading">Eyebrow threading</option>
+                    <option value="Full face">Full face</option>
+                    <option value="Sideburns & neck">Sideburns &amp; neck</option>
+                    <option value="Upper lip">Upper lip</option>
+                    <option value="Chin">Chin</option>
+                    <option value="Combo / multiple areas">Combo / multiple areas</option>
+                    <option value="Other / not sure">Other / not sure</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="form-row form-row-2">
+                <label class="form-field">
+                  <span class="form-label">Preferred date <abbr title="required">*</abbr></span>
+                  <input type="date" name="Preferred date" id="book-date" required />
+                </label>
+                <label class="form-field">
+                  <span class="form-label">Preferred time <abbr title="required">*</abbr></span>
+                  <input type="time" name="Preferred time" id="book-time" required />
+                </label>
+              </div>
+
+              <label class="form-field">
+                <span class="form-label">Notes <span class="form-optional">(optional)</span></span>
+                <textarea
+                  name="Notes"
+                  id="book-notes"
+                  rows="4"
+                  placeholder="First time client, allergies, or timing flexibility…"
+                ></textarea>
+              </label>
+
+              <p class="form-footnote">
+                By sending this form, you agree we may contact you about this
+                appointment at the email or phone you provided.
+              </p>
+
+              <button type="submit" class="btn btn-primary btn-submit">Request appointment</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="visit" aria-labelledby="visit-heading">
+        <div class="container">
+          <div class="location-card">
+            <div>
+              <h2 id="visit-heading">Visit us</h2>
+              <p>We're here to help you look and feel polished. Stop by or reach out to book.</p>
+              <address>
+                3045 Wilderness Drive
+              </address>
+              <p>
+                <a
+                  class="map-link"
+                  href="https://www.google.com/maps/search/?api=1&amp;query=3045+Wilderness+Drive"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Open in Google Maps →
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <img
+          class="footer-logo"
+          src="logo_no_name.png"
+          alt=""
+          width="56"
+          height="56"
+        />
+        <p>
+          <strong>Zoya's Threading</strong><br />
+          3045 Wilderness Drive
+        </p>
+        <p>&copy; <span id="year"></span> Zoya's Threading. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Booking: set email in site-config.js (FormSubmit). First use: confirm inbox for activation email. -->
+
+    <script src="site-config.js"></script>
+    <script>
+      (function () {
+        var y = document.getElementById("year");
+        if (y) y.textContent = new Date().getFullYear();
+
+        var form = document.getElementById("booking-form");
+        if (form) {
+          var next = form.querySelector('input[name="_next"]');
+          if (next) {
+            try {
+              next.value = new URL("thank-you.html", window.location.href).href;
+            } catch (e) {
+              next.value = "";
+            }
+          }
+          var dateInput = document.getElementById("book-date");
+          if (dateInput) {
+            var d = new Date();
+            var pad = function (n) {
+              return String(n).padStart(2, "0");
+            };
+            dateInput.min =
+              d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate());
+          }
+        }
+
+        var toggle = document.querySelector(".nav-toggle");
+        var nav = document.querySelector(".site-nav");
+        if (!toggle || !nav) return;
+
+        function setOpen(open) {
+          nav.classList.toggle("is-open", open);
+          toggle.setAttribute("aria-expanded", open);
+          toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+          document.body.style.overflow = open ? "hidden" : "";
+        }
+
+        toggle.addEventListener("click", function () {
+          setOpen(!nav.classList.contains("is-open"));
+        });
+
+        nav.querySelectorAll("a").forEach(function (link) {
+          link.addEventListener("click", function () {
+            setOpen(false);
+          });
+        });
+
+        window.matchMedia("(min-width: 768px)").addEventListener("change", function (e) {
+          if (e.matches) setOpen(false);
+        });
+      })();
+    </script>
+  </body>
+</html>
