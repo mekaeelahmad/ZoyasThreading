@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
     <meta
       name="description"
       content="Zoya's Threading — certified eyebrow threading, full face, sideburns, and more. Visit us at 3045 Wilderness Drive."
@@ -52,18 +55,9 @@
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-heading">
-        <div class="container hero-grid">
-          <div class="hero-visual">
-            <img
-              class="hero-logo"
-              src="logo_with_name.png"
-              alt="Zoya's Threading logo"
-              width="340"
-              height="380"
-            />
-          </div>
-          <div class="hero-copy">
+      <section id="services" aria-labelledby="page-heading">
+        <div class="container">
+          <header class="services-top">
             <p class="badge">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                 <path
@@ -75,34 +69,26 @@
               </svg>
               Certified in eyebrow threading
             </p>
-            <h1 id="hero-heading">Precision threading for brows &amp; beyond</h1>
-            <p class="hero-lead">
-              Clean lines, gentle technique, and lasting shape—whether you want a
-              natural arch, a full-face refresh, or neat sideburns. Your comfort
-              and results come first.
+            <h1 id="page-heading">Precision threading for brows &amp; beyond</h1>
+            <p class="services-top__lead">
+              Gentle cotton-thread shaping for brows, face, and touch-ups.
             </p>
-            <div class="hero-cta">
+            <div class="services-top__cta">
               <a class="btn btn-primary" href="#book">Book</a>
-              <a class="btn btn-ghost" href="#services">Browse services</a>
+              <a class="btn btn-ghost" href="#visit">Visit</a>
             </div>
-          </div>
-        </div>
-      </section>
+          </header>
 
-      <section id="services" aria-labelledby="services-heading">
-        <div class="container">
-          <div class="section-intro">
+          <div class="section-intro section-intro--compact">
             <h2 id="services-heading">What we offer</h2>
             <p>
-              Threading removes hair with a twisted cotton thread for sharp
-              definition and less irritation on sensitive skin. Popular for face
-              shaping and maintenance between appointments.
+              Sharp lines, less irritation than wax—ideal for face shaping between visits.
             </p>
           </div>
           <div class="services-grid">
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M4 12c3-6 8-7 16-5"
                     stroke="currentColor"
@@ -112,27 +98,21 @@
                 </svg>
               </div>
               <h3>Eyebrow threading</h3>
-              <p>
-                Certified shaping and cleanup to define your arch, thickness,
-                and symmetry—tailored to your face.
-              </p>
+              <p>Certified shaping for arch, thickness, and symmetry.</p>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <circle cx="12" cy="10" r="5" stroke="currentColor" stroke-width="1.8" />
                   <path d="M7 20c1.5-3 4-4 10-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
                 </svg>
               </div>
               <h3>Full face</h3>
-              <p>
-                Cheeks, jawline, forehead, and upper lip for an all-over smooth,
-                photo-ready finish.
-              </p>
+              <p>Cheeks, jawline, forehead, and upper lip in one session.</p>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M8 8h8v12H8V8zm0 4h8M10 6V4h4v2"
                     stroke="currentColor"
@@ -143,27 +123,21 @@
                 </svg>
               </div>
               <h3>Sideburns &amp; neck</h3>
-              <p>
-                Clean edges along the hairline and sideburns for a polished look
-                that grows in softly.
-              </p>
+              <p>Clean hairline and sideburn edges with soft grow-out.</p>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <ellipse cx="12" cy="11" rx="7" ry="5" stroke="currentColor" stroke-width="1.6" />
                   <path d="M9 16c1 2 4 2 6 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
                 </svg>
               </div>
               <h3>Upper lip &amp; chin</h3>
-              <p>
-                Quick, precise hair removal for common areas—ideal for sensitive
-                skin and detailed lines.
-              </p>
+              <p>Quick, precise—great for sensitive skin.</p>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M6 12h12M12 6v12"
                     stroke="currentColor"
@@ -173,14 +147,11 @@
                 </svg>
               </div>
               <h3>Combo &amp; custom</h3>
-              <p>
-                Mix brows with lip, chin, or full face in one visit. Ask what
-                combination works best for you.
-              </p>
+              <p>Mix brows with lip, chin, or full face in one visit.</p>
             </article>
             <article class="service-card">
               <div class="service-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <path
                     d="M12 21s7-4.5 7-11a7 7 0 10-14 0c0 6.5 7 11 7 11z"
                     stroke="currentColor"
@@ -191,10 +162,7 @@
                 </svg>
               </div>
               <h3>First-time friendly</h3>
-              <p>
-                New to threading? We'll explain the process and go at your pace
-                so you leave confident and comfortable.
-              </p>
+              <p>We explain every step and go at your pace.</p>
             </article>
           </div>
         </div>
