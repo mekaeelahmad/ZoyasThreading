@@ -4,7 +4,7 @@
  * Change the booking email on the line below only. The booking form uses it automatically.
  */
 (function () {
-  var BOOKING_EMAIL = "mekaeelahmad24@gmail.com";
+  var BOOKING_EMAIL = "sajida.p.ahmad@gmail.com";
 
   window.ZOYAS_SITE_CONFIG = {
     bookingEmail: BOOKING_EMAIL,
